@@ -27,7 +27,50 @@
             <h2>Biglietto del Treno</h2>
           </div>
           <div class="card-body">
-            <h5 class="card-title">Prezzo biglietto</h5>
+            <div class="d-flex justify-content-center gap-3">
+              <div>
+                <span>Inserisci il tuo nome</span>
+                <input
+                  id="text-name"
+                  type="text"
+                  class=""
+                  value="Valore di default"
+                  required
+                />
+              </div>
+              <div>
+                <span>Inserisci quanti Km devi viaggiare</span>
+                <input
+                  id="text-km"
+                  type="text"
+                  class=""
+                  value="Valore di default"
+                  required
+                />
+              </div>
+
+              <div>
+                <span>Inserisci la tua età</span>
+                <input
+                  id="text-age"
+                  type="text"
+                  class=""
+                  value="Valore di default"
+                  required
+                />
+              </div>
+            </div>
+            <div class="d-flex justify-content-center gap-3">
+              <button id="btn-send" class="btn btn-primary mt-2">Send</button>
+              <button
+                id="btn-reset"
+                class="btn btn-secondary mt-2"
+                type="reset"
+              >
+                Reset
+              </button>
+            </div>
+
             <div id="ticketTrain" class="card-text"></div>
           </div>
         </div>
